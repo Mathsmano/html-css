@@ -1,0 +1,112 @@
+@charset "UTF-8"
+
+
+
+@font-face {
+    font-family:idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+}
+body{
+    background-color: blanchedalmond;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 0px;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top ,rgb(7, 95, 7), green);
+    margin: 0px;
+
+}
+
+header > h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+h2{
+    font-family: idroid;
+    background-image: linear-gradient(to right,rgba(0, 128, 0, 0.625), white);
+    color: aliceblue;
+}
+
+header > nav{
+    text-align: left;
+    color: white;
+    
+}
+
+header > nav > a{
+    color: white;
+    padding: 4px 10px 0px 4px;
+    
+}
+
+header > nav > a:hover{
+    background-color: rgba(81, 176, 81, 0.801);
+    
+}
+
+main{
+    background-color: white;
+    margin: 0px 40px 0px 40px;
+    padding: 10px;
+}
+
+main > h1{
+    margin-top: 0px;
+}
+
+main > p{
+    text-indent: 16px;
+}
+
+span{
+    color: darkgreen;
+}
+main > a{
+    color: darkgreen;
+}
+
+img{
+    padding: 5px;
+    margin: 5px;
+}
+
+section{
+    background-color: darkgreen;
+    
+}
+
+h3{
+    color: white ;
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 6px 6px 0px 0px;
+    
+}
+
+#fim{
+    background-color: lightgreen;
+    border-radius: 6px;
+}
+
+footer{
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+section > nav > li > ul{
+    columns: 2;
+}
+
+li{
+    display: inline;
+    width: 100px;
+}
