@@ -1,3 +1,3 @@
 # html-css
-Curso de HTML5 e CSS3 do CursoemViideo
+Curso de HTML5 e CSS3 do CursoemVideo
 teste de commit
