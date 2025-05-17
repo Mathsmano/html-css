@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: sriracha;
+    src: url(fonts/Sriracha.ttf) format(truetype);
+
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align:center;
+    margin: 0px 0px 50px 0px;
+    height: 200px;
+    padding-top: 30px;
+    
+}
+
+header > h1 {
+    margin-top: 0px;
+    margin-bottom: 1%;
+    font-size: 5em;
+    font-family:passion;
+    
+}
+
+header a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main  p{
+    padding-left: 30px;
+    font-family: sriracha;
+    font-size: 30px;
+}
+
+#joaninha{
+    background: white url('imagens/background001.jpg') center center no-repeat fixed ;
+    color: white;
+    padding: 50px 50px 50px 20px;
+
+}
+
+#trecho2{
+    background-color: rgba(51, 50, 50, 0.168);
+    width: 400px;
+    padding-left: 10px;
+}
+
+#papel{
+    background: white url("imagens/background002.jpg") center center no-repeat fixed;
+    color: white;
+    padding: 50px 50px 50px 20px;
+}
+
+#trecho5{
+    background-color: rgba(51, 50, 50, 0.168);
+    width: 400px;
+    padding-left: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
