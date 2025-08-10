@@ -1,42 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible box</title>
+    <title>flexbox centralizado</title>
     <style>
-        .container{
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
             background-color: salmon;
+        }
+
+        main{
+            background-color: lightgreen;
+            height: 90vh;
+            width: 100vw;
+
             display: flex;
-            height: 300px;
-            justify-content:center;
+            justify-content: center;
             align-items: center;
         }
 
-        .iten{
-            background-color: skyblue;
-            border: 1px solid black;
-            text-align: center;
+        section{
+            background-color: lightseagreen;
+            height: 200px;
+            width: 200px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        
-        <div class="iten">A</div>
-        <div class="iten">B</div>
-        <div class="iten">C</div>
-        <div class="iten">D</div>
-        <div class="iten">E</div>
-        <div class="iten">F</div>
-        <div class="iten">G</div>
-
-
-
-
-
-
-
-    </div>
+    <main>
+        <section>
+            <h1>Tela de login</h1>
+        </section>
+    </main>
 </body>
 </html>
