@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        .container{
+            background-color: salmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .iten{
+            background-color: skyblue;
+            border: 1px solid black;   
+            text-align: center;
+            
+        }
+        #caixaa{
+          flex: 1 1 auto;      
+        }
+        #caixab{
+          flex: 3 8 15px;
+        }
+        #caixac{
+         flex: 1 0 auto;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="iten" id="caixaa">A</div>
+        <div class="iten" id="caixab">B</div>
+        <div class="iten" id="caixac">C</div>
+        
+    </div>
+</body>
+</html>
